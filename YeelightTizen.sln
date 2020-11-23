@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YeelightTizen.App", "YeelightTizen.App\YeelightTizen.App.csproj", "{3076C19A-1DD5-44D8-88FB-2DC549375EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3076C19A-1DD5-44D8-88FB-2DC549375EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3076C19A-1DD5-44D8-88FB-2DC549375EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3076C19A-1DD5-44D8-88FB-2DC549375EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3076C19A-1DD5-44D8-88FB-2DC549375EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22AB90C6-BC43-421F-B112-7CA799099077}
+	EndGlobalSection
+EndGlobal
