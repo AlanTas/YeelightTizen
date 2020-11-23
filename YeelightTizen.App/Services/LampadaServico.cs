@@ -22,7 +22,7 @@ namespace YeelightTizen.App.Services
             await Lampada.Connect();
             return Lampada;
         }
-        private async Task GetDevicesAsync()
+        public async Task<IEnumerable<Device>> ObterDispositivos()
         {
             // Await the asynchronous call to the static API
             IEnumerable<Device> discoveredDevices = await DeviceLocator.DiscoverAsync();
