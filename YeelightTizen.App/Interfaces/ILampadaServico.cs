@@ -10,6 +10,6 @@ namespace YeelightTizen.Interfaces
     public interface ILampadaServico
     {
         Task<Device> ObterDispositivo(string ip);
-        Task<IEnumerable<Device>> ObterDispositivos();
+        Task<List<Device>> ObterDispositivos();
     }
 }

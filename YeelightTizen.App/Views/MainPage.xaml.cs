@@ -19,15 +19,8 @@ namespace YeelightTizen.App.Views
         public async void Teste()
         {
             Servico = new LampadaServico();
-            try
-            {
-                var devices = await Servico.ObterDispositivos();
-            }
-            catch(Exception e)
-            {
+            var devices = await Servico.ObterDispositivos();
 
-            }
-            
         }
     }
 }
